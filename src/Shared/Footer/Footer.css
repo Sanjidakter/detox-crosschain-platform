@@ -1,0 +1,27 @@
+.footer-title{
+  color: #F95B27;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 600;
+}
+.custom-hr {
+  margin-left: 10%;
+  color: orangered; /* Change to the desired color */
+  width: 80%; /* Change to the desired width */
+}
+
+.subscribe {
+    margin-top: 7%;
+    margin-left: 24%;
+    width: 650px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(136deg, rgba(249, 91, 39, 0.1) 0%, rgba(255, 87, 249, 0.1) 48.96%, rgba(27, 49, 244, 0.1) 100%);
+  }
+  @media (max-width: 768px) {
+    .subscribe {
+      margin-left: 0;
+    }
+  }
+  

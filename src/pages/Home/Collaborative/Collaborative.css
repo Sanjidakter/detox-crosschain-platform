@@ -1,0 +1,23 @@
+.text-box {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 262px;
+}
+
+.third-title {
+  color: #fff;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.my-icon {
+  color: rgb(255, 115, 0); /* Replace with the desired color */
+}

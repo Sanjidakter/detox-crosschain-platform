@@ -1,0 +1,8 @@
+.token{
+    margin-top: 4%;
+    margin-left: 10%;
+    /* width: 1000px;
+height: 450px; */
+    flex-shrink: 0;
+    background: linear-gradient(136deg, rgba(249, 91, 39, 0.1) 0%, rgba(255, 87, 249, 0.1) 48.96%, rgba(27, 49, 244, 0.1) 100%);
+}
