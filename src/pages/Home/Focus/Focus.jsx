@@ -42,79 +42,15 @@ const Focus = () => {
   return (
     <>
     <h2 className="text-4xl text-white ml-20 font-bold">Application Focus</h2>
-    <div className=" arrow-buttons absolute right-80 mt-2 mr-16 mb-3">
+    {/* <div className=" arrow-buttons absolute right-80 mt-2 mr-16 mb-3">
         <button className=" arrow-button left-button text-6xl" onClick={scrollLeft}>
           &#8249;
         </button>
         <button className="arrow-button right-button text-6xl " onClick={scrollRight}>
           &#8250;
         </button>
-      </div>
-   
-    <div className="hidden md:flex p-12 gap-6 mt-6">
-      
-      <div className="card w-96 shadow-xl">
-        <figure>
-          <img
-          className="p-4"
-            src={a1}
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">
-          B2B, B2C, C2C, P2P
-            
-          </h2>
-          <p>The platform is designed to allow users to transact between phone and email systems. Using legacy</p>
-          <div className="card-actions ">
-            <div className="badge badge-outline">Read More</div>
-            
-          </div>
-        </div>
-      </div>
-      <div className="card w-96 shadow-xl">
-        <figure>
-          <img
-          className="p-4"
-            src={a2}
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">
-          Digital first focus
-            
-          </h2>
-          <p>The platform is designed to allow users to transact between phone and email systems. Using legacy</p>
-          <div className="card-actions ">
-            <div className="badge badge-outline">Read More</div>
-            
-          </div>
-        </div>
-      </div>
-      <div className="card w-96 shadow-xl">
-        <figure>
-          <img
-          className="p-4"
-            src={a3}
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">
-          Ease of use
-           
-          </h2>
-          <p>The platform is designed to allow users to transact between phone and email systems. Using legacy</p>
-          <div className="card-actions ">
-            <div className="badge badge-outline">Read More</div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    <div  className="lg:hidden ml-10">
+      </div> */}
+    <div  className="ml-10 md:hidden ">
     <Swiper
         effect={"cube"}
         grabCursor={true}
@@ -197,6 +133,70 @@ const Focus = () => {
       
       </Swiper>
     </div>
+    <div className="hidden md:flex md:p-12 md:gap-6 md:mt-6">
+      
+      <div className="card w-96 shadow-xl">
+        <figure>
+          <img
+          className="p-4"
+            src={a1}
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">
+          B2B, B2C, C2C, P2P
+            
+          </h2>
+          <p>The platform is designed to allow users to transact between phone and email systems. Using legacy</p>
+          <div className="card-actions ">
+            <div className="badge badge-outline">Read More</div>
+            
+          </div>
+        </div>
+      </div>
+      <div className="card w-96 shadow-xl">
+        <figure>
+          <img
+          className="p-4"
+            src={a2}
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">
+          Digital first focus
+            
+          </h2>
+          <p>The platform is designed to allow users to transact between phone and email systems. Using legacy</p>
+          <div className="card-actions ">
+            <div className="badge badge-outline">Read More</div>
+            
+          </div>
+        </div>
+      </div>
+      <div className="card w-96 shadow-xl">
+        <figure>
+          <img
+          className="p-4"
+            src={a3}
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">
+          Ease of use
+           
+          </h2>
+          <p>The platform is designed to allow users to transact between phone and email systems. Using legacy</p>
+          <div className="card-actions ">
+            <div className="badge badge-outline">Read More</div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+   
    
     </>
   );
