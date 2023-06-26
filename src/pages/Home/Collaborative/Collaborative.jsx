@@ -64,47 +64,46 @@ const Collaborative = () => {
         </div>
       </div>
       {/* icons */}
-      <div class="mt-20 flex justify-center gap-[70px]">
-        <div>
-        
-          <img className="border p-8 rounded-full" src={fast} alt="" />
-          <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
-            Fast
-          </h2>
-        </div>
-        <div>
-          <div>
-          <img className="border p-8 rounded-full" src={scalable} alt="" />
-          </div>
-          <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
-            Scalable
-          </h2>
-        </div>
-        <div>
-        <img className="border p-8 rounded-full" src={robust} alt="" />
-          <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
-            Robust
-          </h2>
-        </div>
-        <div>
-        <img className="border p-8 rounded-full" src={green} alt="" />
-          <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
-            Green
-          </h2>
-        </div>
-        <div>
-        <img className="border p-8 rounded-full" src={cross} alt="" />
-          <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
-            Cross Chain
-          </h2>
-        </div>
-        <div>
-        <img className="border p-8 rounded-full" src={acess} alt="" />
-          <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
-            Accessible
-          </h2>
-        </div>
-      </div>
+      <div class="mt-20 flex flex-wrap justify-center gap-[50px]">
+  <div class="flex flex-col items-center mb-10">
+    <img class="border p-8 rounded-full h-[100px] w-[100px] object-cover" src={fast} alt="" />
+    <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
+      Fast
+    </h2>
+  </div>
+  <div class="flex flex-col items-center mb-10">
+    <img class="border p-8 rounded-full h-[100px] w-[100px] object-cover" src={scalable} alt="" />
+    <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
+      Scalable
+    </h2>
+  </div>
+  <div class="flex flex-col items-center mb-10">
+    <img class="border p-8 rounded-full h-[100px] w-[100px] object-cover" src={robust} alt="" />
+    <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
+      Robust
+    </h2>
+  </div>
+  <div class="flex flex-col items-center mb-10">
+    <img class="border p-8 rounded-full h-[100px] w-[100px] object-cover" src={green} alt="" />
+    <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
+      Green
+    </h2>
+  </div>
+  <div class="flex flex-col items-center mb-10">
+    <img class="border p-8 rounded-full h-[100px] w-[100px] object-cover" src={cross} alt="" />
+    <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
+      Cross Chain
+    </h2>
+  </div>
+  <div class="flex flex-col items-center mb-10">
+    <img class="border p-8 rounded-full h-[100px] w-[100px] object-cover" src={acess} alt="" />
+    <h2 class="text-[32px] font-semibold mt-6 flex justify-center">
+      Accessible
+    </h2>
+  </div>
+</div>
+
+
     </div>
   );
 };

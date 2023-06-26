@@ -82,7 +82,7 @@ const Footer = () => {
         <div className="items-center grid-flow-col">
           <h2 className="text-3xl ml-24 font-bold">Lybell</h2>
         </div>
-        <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end mr-6">
           <p> © 2022 CreativePeoples. All Rights Reserved</p>
         </div>
       </div>

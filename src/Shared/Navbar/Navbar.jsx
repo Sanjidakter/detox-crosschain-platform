@@ -19,7 +19,7 @@ const Navbar = () => {
       <li tabIndex="0">
         <details>
           <summary>About</summary>
-          <ul className="p-2">
+          <ul className="p-2 text-black">
             <li><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
