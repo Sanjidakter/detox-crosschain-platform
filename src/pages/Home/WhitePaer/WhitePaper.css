@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+  
+  .flex-container > div:first-child {
+    order: 2;
+  }
+  
+  .flex-container > div:nth-child(2) {
+    order: 1;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .flex-container {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .flex-container > div:first-child {
+      order: 1;
+      width: 40%;
+    }
+  
+    .flex-container > div:nth-child(2) {
+      order: 2;
+      width: 60%;
+    }
+  }
+  

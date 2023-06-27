@@ -6,6 +6,27 @@
   width: 500px;
   height: 262px;
 }
+/* CSS for medium screen sizes */
+@media (max-width: 768px) {
+  .text-box {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+/* CSS for small screen sizes */
+@media (max-width: 576px) {
+  .text-box {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+  }
+}
 
 .third-title {
   color: #fff;
@@ -17,6 +38,25 @@
   font-weight: 700;
   line-height: 60px;
   text-transform: capitalize;
+}
+/* Media Query for Medium Screens */
+@media (max-width: 768px) {
+  .third-title {
+    width: 60%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .para{
+    width: 50%;
+  }
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 480px) {
+  .third-title {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 .my-icon {
   color: rgb(255, 115, 0); /* Replace with the desired color */

@@ -37,10 +37,10 @@ const Navbar = () => {
     <>
      
 
-      <div className="navbar bg-white text-white p-5">
+      <div className="navbar  text-white p-5">
         {/* Mobile */}
-        <div className="lg:hidden">
-          <div className="dropdown">
+        <div className="lg:hidden ">
+          <div className="dropdown ">
             <label tabIndex={0} className="btn btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const Navbar = () => {
                 />
               </svg>
             </label>
-            <ul className="menu menu-sm dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-52">
+            <ul className="menu menu-sm dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-52 bg-blacknpm ">
               {navItems}
             </ul>
           </div>

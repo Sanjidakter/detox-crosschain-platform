@@ -1,9 +1,32 @@
-.token{
-    margin-top: 4%;
-    margin-left: 15%;
-    /* width: 1000px;
-height: 450px; */
-border-radius: 20px;
-    flex-shrink: 0;
-    background: linear-gradient(136deg, rgba(249, 91, 39, 0.1) 0%, rgba(255, 87, 249, 0.1) 48.96%, rgba(27, 49, 244, 0.1) 100%);
+.token {
+  margin-top: 4%;
+  margin-left: 15%;
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    136deg,
+    rgba(249, 91, 39, 0.1) 0%,
+    rgba(255, 87, 249, 0.1) 48.96%,
+    rgba(27, 49, 244, 0.1) 100%
+  );
 }
+
+/* Media Query for Medium Screens */
+@media (max-width: 768px) {
+    .token {
+      width: 100%;
+      height: 80%;
+      margin: 2% auto;
+    }
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 480px) {
+    .token {
+      width: 100%;
+      height: 80%;
+      margin: 2% auto;
+    }
+  }

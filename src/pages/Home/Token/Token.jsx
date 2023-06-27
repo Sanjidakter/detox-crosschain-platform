@@ -3,10 +3,11 @@ import "./Token.css";
 
 const Token = () => {
   return (
-    <div className="p-12 w-3/4 flex flex-col md:flex-row token text-white">
-      <div className="p-8 w-1/2">
+    <div className="p-12 lg:w-3/4  text-white">
+     <div className="flex flex-col md:flex-row token">
+     <div className="p-4 lg:p-8 lg:w-1/2">
         <h2 className="text-3xl mb-3 font-bold">Token Sale</h2>
-        <p>
+        <p >
           Etiam imperdiet porttitor nisi, vitae maximus nisl porta id. Etiam ut
           nunc eget ligula ornare dignissim ut id mauris. Curabitur tristique
           eros id orci scelerisqu honcus a in metus. Aliquam erat volutpat. Duis
@@ -42,6 +43,9 @@ const Token = () => {
           </li>
         </ul>
       </div>
+     
+     </div>
+     
     </div>
   );
 };

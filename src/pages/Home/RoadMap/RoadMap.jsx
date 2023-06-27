@@ -6,7 +6,7 @@ import stick2 from "../../../assets/stick2.png";
 
 const RoadMap = () => {
   return (
-    <div className="p-16 text-white text-center mt-12">
+    <div className=" p-8 lg:p-16 text-white text-center mt-12">
       <h2 className="text-3xl font-bold">
         Lybell <br />
         Launch Roadmap
@@ -16,7 +16,7 @@ const RoadMap = () => {
           background:
             "background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);",
         }}
-        className="ml-32 mr-32"
+        className="mt- 6 lg:ml-32 lg:mr-32"
       >
         Maecenas condimentum bibendum efficitur. Phasellus leo orci, tincidunt
         at egestas ut, ultricies sit amet libero. Suspendisse vel auctor quam,

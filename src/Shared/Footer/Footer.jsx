@@ -10,7 +10,7 @@ const Footer = () => {
             Subscribe To Our Newsletter
           </span>
           <p className="mt-3">Join our email list for exclusive offers and the latest news.</p>
-          <div className="form-control ml-20 mt-3 w-80">
+          <div className="form-control md:ml-20 mt-3 w-80">
             <div className="relative">
               <input
                 type="text"

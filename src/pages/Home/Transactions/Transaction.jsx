@@ -45,7 +45,7 @@ const Transaction = () => {
           </figure>
         </div>
       </div>
-      <div className="numbers bg- flex flex-col lg:flex-row gap-12 p-24">
+      <div className="numbers  flex flex-col mt-8 gap-4 lg:flex-row lg:gap-12 lg:p-24">
         <p className="text-center p-3"
           style={{
             width: "300px",
